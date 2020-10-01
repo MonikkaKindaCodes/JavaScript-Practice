@@ -1,8 +1,9 @@
 var secretNumber = 4;
-var guess = prompt("Pick a Number");
-if (Number(guess) === secretNumber) {
+var stringGuess = prompt("Pick a Number");
+var guess = Number(stringGuess);
+if (guess === secretNumber) {
   alert("You guessed the Secret Number");
-} else if (Number(guess) < 4) {
+} else if (guess < secretNumber) {
   alert("Too Low! Guess Again");
 } else {
   alert("Too High! Guess Again!");
