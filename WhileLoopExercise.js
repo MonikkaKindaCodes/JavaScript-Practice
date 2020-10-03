@@ -16,11 +16,13 @@ while (odd <= 333) {
     if (odd % 2 !== 0) {
         console.log(odd);
     }
-    odd = +1;
+    odd++;
 }
 console.log("Print all numbers that are divisible by 5 and 3 between 5 and 50");
-var bob = 15;
-while (bob < 50 && bob % 15 === 0) {
-    console.log(bob);
-    bob = +15;
+var bob = 5;
+while (bob <= 50) {
+    if (bob % 5 === 0 && bob % 3 === 0) {
+        console.log(bob);
+    }
+    bob++;
 }
