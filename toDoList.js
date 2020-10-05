@@ -1,11 +1,13 @@
 var toDos = ["Buy New Turtles"];
 var input = prompt("What would you like to do?");
-    
+
 while (input !== "quit") {
     if (input === "list") {
-        console.log(toDos);
+        toDos.forEach(function (todo) {
+            console.log(todo);
+        });
     } else if (input === "new") {
-        var newToDo = prompt ("What task would you like to add?");
+        var newToDo = prompt("What task would you like to add?");
         toDos.push(newToDo);
     }
     var input = prompt("What would you like to do?");
