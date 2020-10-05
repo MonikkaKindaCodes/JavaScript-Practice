@@ -11,11 +11,11 @@ while (input !== "quit") {
     } else if (input === "new") {
         var newToDo = prompt("What task would you like to add?");
         toDos.push(newToDo);
-        console.log("Added To Do");
+        alert("Added To Do");
     } else if (input === "delete") {
         var index = prompt("Enter index of todo to delete");
         toDos.splice(index, 1);
-        console.log("Deleted To Do");
+        alert("Deleted To Do");
     }
     var input = prompt("What would you like to do?");
 }
