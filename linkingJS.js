@@ -1,6 +1,18 @@
 let js = 'amazing'
+console.log(20+4+23);
 
-if (js === 'amazing') {
-  alert('JavaScript  is Fun'); /*will appear on the webpage */
-  console.log(20+4+23); /*will show in the console log*/
-}
+console.log("Monikka");
+console.log("Yo, Homeslice");
+
+let firstName = "Lizard";
+let lastnName = "Edgeston";
+
+let fullName = firstName + " " + lastnName;
+
+console.log(fullName);
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
