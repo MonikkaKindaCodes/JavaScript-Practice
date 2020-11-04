@@ -8,13 +8,10 @@ const johnFirstBMI = (johnFirstWeight/(johnFirstHeight ** 2));
 console.log(markFirstBMI);
 console.log(johnFirstBMI);
 
-let markHigherBMI = true; 
+const markHigherBMI = markFirstBMI > johnFirstBMI;
+console.log(markHigherBMI);
 
-if (markFirstBMI > johnFirstBMI) {
-    console.log(markHigherBMI);
-}
-
-const markSecondHeight = 1.85; 
+const markSecondHeight = 1.88; 
 const markSecondWeight = 95; 
 const jonSecondHeight = 1.76;
 const jonSecondWeight = 85;
@@ -25,9 +22,6 @@ const johnSecondBMI = (jonSecondWeight/(jonSecondHeight * jonSecondHeight));
 console.log(markSecondBMI);
 console.log(johnSecondBMI);
 
-markHigherBMI = true;
-
-if (markSecondBMI > johnSecondBMI) {
-    console.log(markHigherBMI);
-}
+markSecondHighBMI = markSecondBMI > johnSecondBMI;
+console.log(markSecondHighBMI);
 
