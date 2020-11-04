@@ -1,10 +1,10 @@
 const markFirstHeight = 1.69; 
 const markFirstWeight = 78; 
 const johnFirstHeight = 1.95; 
-const johnFirstWeight = 85;
+const johnFirstWeight = 92;
 
-const markFirstBMI = (78/(1.69 ** 2));
-const johnFirstBMI = (85/(1.95 ** 2));
+const markFirstBMI = (markFirstWeight/(markFirstHeight ** 2));
+const johnFirstBMI = (johnFirstWeight/(johnFirstHeight ** 2));
 console.log(markFirstBMI);
 console.log(johnFirstBMI);
 
@@ -19,8 +19,8 @@ const markSecondWeight = 95;
 const jonSecondHeight = 1.76;
 const jonSecondWeight = 85;
 
-const markSecondBMI = (95/(1.85 * 1.85));
-const johnSecondBMI = (85/(1.76 * 1.76));
+const markSecondBMI = (markSecondWeight/(markSecondHeight * markSecondHeight));
+const johnSecondBMI = (jonSecondWeight/(jonSecondHeight * jonSecondHeight));
 
 console.log(markSecondBMI);
 console.log(johnSecondBMI);
