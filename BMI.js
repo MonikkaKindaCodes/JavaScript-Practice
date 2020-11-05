@@ -1,15 +1,17 @@
-// const markFirstHeight = 1.69; 
-// const markFirstWeight = 78; 
-// const johnFirstHeight = 1.95; 
-// const johnFirstWeight = 92;
+const markFirstHeight = 1.69; 
+const markFirstWeight = 78; 
+const johnFirstHeight = 1.95; 
+const johnFirstWeight = 92;
 
-// const markFirstBMI = (markFirstWeight/(markFirstHeight ** 2));
-// const johnFirstBMI = (johnFirstWeight/(johnFirstHeight ** 2));
-// console.log(markFirstBMI);
-// console.log(johnFirstBMI);
+const markFirstBMI = (markFirstWeight/(markFirstHeight ** 2));
+const johnFirstBMI = (johnFirstWeight/(johnFirstHeight ** 2));
 
-// const markHigherBMI = markFirstBMI > johnFirstBMI;
-// console.log(markHigherBMI);
+if(markFirstBMI > johnFirstBMI) {
+    console.log(`Mark's BMI (${markFirstBMI.toFixed(2)}) is higher than John's BMI (${johnFirstBMI.toFixed(2)}).`);
+} else {
+    console.log(`John's BMI (${johnFirstBMI.toFixed(2)}) is higher than Mark's BMI (${markFirstBMI.toFixed(2)}).`);
+}
+
 
 const markSecondHeight = 1.88; 
 const markSecondWeight = 95; 
