@@ -27,7 +27,7 @@
 let dolphinsAverage = ((97+112+101)/3);
 let koalasAverage = ((109+95+106)/3);
 
-if(dolphinsAverage === koalasAverage && dolphinsAverage && koalasAverage >= 100) {
+if((dolphinsAverage === koalasAverage) && (dolphinsAverage && koalasAverage >= 100)) {
     console.log('Draw Game!');
 } else if ((koalasAverage > dolphinsAverage) && (koalasAverage >= 100)) {
     console.log(`Koalas Win!`);
