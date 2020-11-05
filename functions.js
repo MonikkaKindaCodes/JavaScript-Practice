@@ -12,7 +12,7 @@ logger();
 function fruitProcessor(apples, oranges) {
     console.log(apples, oranges);
     const juice = `juice with ${apples} apples and ${oranges} oranges`;
-    return juice;
+    return juice; //will run the juice string above when the function is invoked
 }
 
 const appleJuice = fruitProcessor(5, 0); // 5, 0 are arguements
